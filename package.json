@@ -1,0 +1,22 @@
+{
+  "name": "generate-path-ts-4.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build-with-ts-4-1": "npm install -d typescript@4.1 && npm run build",
+    "build-with-ts-3-1": "npm install -d typescript@3.1 && npm run build",
+    "build-with-ts-3-0": "npm install -d typescript@3.0 && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@types/react-router": "../DefinitelyTyped/types/react-router",
+    "react-router": "^5.1.0"
+  }
+}
